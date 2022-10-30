@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    counter-reset: #414141;
 }
 
 .first_login {
@@ -84,6 +85,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
+    font-size: 48px;
+}
+
+h3 {
     font-size: 44px;
 }
 
@@ -137,4 +142,7 @@ p {
     background-color: #6AA089;
     padding: 16px 23px 16px 26px;
 }
+
+/* Вторая страница*/
+
 
