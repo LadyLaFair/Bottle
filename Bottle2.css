@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 * {
     margin: 0;
@@ -12,6 +13,7 @@ body {
 
 .first_login {
     font-weight: 700;
+    font-size: 14px;
 }
 
 .wrapper {
@@ -20,9 +22,10 @@ body {
 }
 
 .header {
-    background-color: #F7F7F4;
-    opacity: 90%;
+    background-color: rgb(247, 247, 244, 0.9);
     overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
 .first_logo {
     margin-top: 24px;
@@ -52,7 +55,7 @@ body {
     padding: 16px 24px 16px 26px;
     border: 1px solid #6AA089;
 }
-.button {
+.first_login .button {
     text-decoration: none;
     color: #FFFFFF;
     border-radius: 10px;
@@ -67,7 +70,6 @@ body {
 
 .first_nav ul li {
     display: inline-block;
-    margin-right: 42px;
     margin-left: 28px;
 }
 
@@ -76,3 +78,63 @@ body {
     margin-top: 31px;
     height: 56px;
 }
+/* Текст */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+p {
+    font-size: 19px;
+}
+
+/* Фотография */
+.photo {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    position: relative;
+    top: -88px;
+    left: 617px;
+}
+
+/*Задний фон*/
+.first_background {
+    overflow: hidden;
+    padding-top: 118px;
+    position: relative;
+    top: -866px;
+}
+.second_login .link {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 16px 24px 16px 26px;
+    border: 1px solid #6AA089;
+    padding-right: 30px;
+}
+
+.first_content h2 {
+    margin-bottom: 81px;
+}
+.first_content p {
+    margin-top: 39px;
+}
+.second_login {
+    padding-top: 108px;
+    float: left;
+    padding-bottom: 206px;
+}
+
+.second_login .button {
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #6AA089;
+    padding: 16px 23px 16px 26px;
+}
+
