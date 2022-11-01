@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+.first_background {
+    padding-bottom: 206px;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     counter-reset: #414141;
@@ -145,4 +148,32 @@ p {
 
 /* Вторая страница*/
 
+.team_left {
+   position: relative;
+   top: -1300px;
+   left: 615px;
+}
 
+.team_right {
+    position: relative;
+    top: -966px;
+}
+
+.great div {
+    color: #6AA089;
+}
+
+.team_left p {
+    position: relative;
+    left: 140px;
+}
+
+.great {
+    position: relative;
+    top: -1020px;
+    text-align: center;
+}
+
+.great h2 div {
+    display: inline-block;
+}
