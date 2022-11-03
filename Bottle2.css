@@ -105,6 +105,10 @@ h3 {
     font-size: 44px;
 }
 
+h4 {
+    font-size: 24px;
+}
+
 p {
     font-size: 19px;
 }
@@ -235,4 +239,57 @@ p {
 
 .collab_right {
     margin-top: 30px;
+}
+
+/* картинки */ 
+.Pictures {
+    overflow: hidden;
+    margin-top: 73px;
+    margin-bottom: 168px;
+}
+
+.picture1,
+.picture2,
+.picture3 {
+    float: left;
+}
+.picture1 {
+    width: 185px;
+    margin-right: 117px;
+    margin-left: 300px;
+    margin-top: 28px;
+}
+
+.picture1 img {
+    margin-bottom: 41px;
+}
+
+.picture1 h4 {
+    margin-bottom: 25px;
+}
+
+.picture2 {
+    width: 218px;
+    margin-right: 107px;
+    margin-top: 7px;
+}
+
+.picture2 img {
+    margin-bottom: 41px;
+}
+
+.picture2 h4 {
+    margin-bottom: 25px;
+}
+
+.picture3 {
+    width: 204px;
+}
+
+.picture3 img {
+    margin-bottom: 41px;
+}
+
+.picture3 h4 {
+    margin-bottom: 25px;
 }
