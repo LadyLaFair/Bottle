@@ -159,7 +159,7 @@ p {
 /* Вторая страница*/
 .Second {
     overflow: hidden;
-    margin: 60px 0;
+    margin-top: 100px;
     padding: 60px 0;
 }
 
@@ -173,7 +173,12 @@ p {
 }
 
 .team_left {
-    margin-bottom: 230px;
+    margin-top: 65px;
+}
+
+.team_left p {
+    margin-left: 139px;
+    margin-top: 37px;
 }
 
 /* hell */
@@ -226,4 +231,8 @@ p {
 .collab_left {
     position: relative;
     
+}
+
+.collab_right {
+    margin-top: 30px;
 }
