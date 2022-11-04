@@ -404,8 +404,6 @@ p {
     margin-bottom: 23px;
 }
 
-.Feedback 
-
 .feedback1,
 .feedback2,
 .feedback3 {
@@ -440,4 +438,30 @@ p {
 
 .feedback3 img {
     margin-top: 27px;
+}
+
+/* комбинированные элементы(команда) */
+
+.Forth {
+    max-height: 352px;
+    overflow: hidden;
+    margin-bottom: 145px;
+}
+.Elements {
+    text-align: center;
+}
+
+.element_center h2 {
+    margin-bottom: 52px;
+}
+
+.element_center p {
+    margin-bottom: 33px;
+}
+
+/* Картинка */
+.element_pic {
+    position: relative;
+    top: -343px;
+    left: 1166px;
 }
