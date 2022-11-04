@@ -465,3 +465,70 @@ p {
     top: -343px;
     left: 1166px;
 }
+
+/* пятая страница */
+.Fifth {
+    overflow: hidden;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.fif {
+    text-align: center;
+}
+
+.fif h2 {
+    position: relative;
+    z-index: 2;
+}
+
+.fif img {
+    position: relative;
+    top: -30px;
+}
+
+.last_button .last {
+    border-radius: 10px;
+    border: 1px solid #6AA089;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #6AA089;
+    padding: 19px 50px 21px 50px;
+}
+
+/* концовка */
+.footer {
+    overflow: hidden;
+    margin-top: 100px;
+    padding: 36px;
+    background-color: #F7F7F4;
+}
+
+.last_logo {
+    margin-bottom: 36px;
+}
+
+.footer p {
+    margin-bottom: 46px;
+}
+
+.last_nav ul {
+    list-style: none
+}
+
+.last_nav ul li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.last_nav ul li:last-of-type {
+    margin-right: 0px;
+}
+
+.contacts img {
+    position: relative;
+    top: -25px;
+    float: right;
+}
+
+
