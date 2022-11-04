@@ -347,11 +347,13 @@ p {
     margin-left: 247px;
     width: 223px;
     margin-right: 96px;
+    padding-top: 6px;
 }
 
 .list2 {
     width: 230px;
     margin-right: 90px;
+    padding-top: 1px;
 }
 
 .list3 {
@@ -393,3 +395,49 @@ p {
     margin-bottom: 119px;
 }
 
+.Feedback p {
+    font-size: 16px;
+}
+
+.Feedback h4 {
+    margin-top: 27px;
+    margin-bottom: 23px;
+}
+
+.Feedback 
+
+.feedback1,
+.feedback2,
+.feedback3 {
+    float: left;
+    text-align: center;
+}
+
+.feedback1 {
+    width: 207px;
+    margin-right: 102px;
+    padding-top: 20px;
+    margin-left: 298px;
+}
+
+.feedback1 img {
+    margin-top: 27px;
+}
+
+.feedback2 {
+    width: 229px;
+    margin-right: 93px;
+    padding-top: 7px;
+}
+
+.feedback2 img {
+    margin-top: 27px;
+}
+
+.feedback3 {
+    width: 230px;
+}
+
+.feedback3 img {
+    margin-top: 27px;
+}
