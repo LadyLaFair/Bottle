@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper {
-    width: 1232px;
+    width: 1325px;
     margin: 0 auto;
 }
 
@@ -221,6 +221,7 @@ p {
     background-color: #FFFFFF;
     border: 1px solid #6AA089;
     padding: 20px 43px 22px 37px;
+    margin-top: 20px;
 }
 
 .collab_right .minilink {
@@ -293,3 +294,102 @@ p {
 .picture3 h4 {
     margin-bottom: 25px;
 }
+
+/* работа */
+.work {
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.work_left,
+.work_right {
+    float: left;
+}
+
+.work_left {
+    width: 401px;
+}
+
+.work_right {
+    width: 710px;
+}
+
+.work_left h3 {
+    margin-bottom: 55px;
+}
+
+.work_left p {
+    margin-top: 55px;
+    margin-bottom: 52px;
+}
+
+.work_left {
+    margin-right: 213px;
+}
+
+/* лист */ 
+.list1,
+.list2,
+.list3 {
+    float: left;
+}
+
+.list p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.list h4 {
+    text-align: center;
+}
+
+.list1 {
+    margin-left: 247px;
+    width: 223px;
+    margin-right: 96px;
+}
+
+.list2 {
+    width: 230px;
+    margin-right: 90px;
+}
+
+.list3 {
+    width: 234px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.list {
+    margin-bottom: 300px;
+}
+
+/* мотивация */
+.motivation {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.motivation_left,
+.motivation_right {
+    float: left;
+    width: 50%;
+}
+
+.motivation_right h3 {
+    margin-bottom: 63px;
+}
+
+.motivation_right p {
+    margin-top: 63px;
+    margin-bottom: 52px;
+}
+
+/* фидбек */ 
+.Feedback {
+    overflow: hidden;
+    margin-bottom: 119px;
+}
+
