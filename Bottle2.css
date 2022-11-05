@@ -92,6 +92,29 @@ body {
     margin-top: 31px;
     height: 56px;
 }
+
+/* анимация для первой страницы */
+
+.first_nav .link:hover {
+    border-bottom: 2px solid #414141;
+}
+
+.first_login .button:hover {
+    background-color: #437460
+}
+
+.first_login .link:hover {
+    border: 1px solid #1B4E65;
+}
+
+.second_login .link:hover {
+    border: 1px solid #1B4E65;
+}
+
+.second_login .button:hover {
+    background-color: #437460;
+}
+
 /* Текст */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
@@ -160,6 +183,10 @@ p {
     padding: 16px 23px 16px 26px;
 }
 
+.second_login .button {
+    margin-right: 22px;
+}
+
 /* Вторая страница*/
 .Second {
     overflow: hidden;
@@ -184,6 +211,7 @@ p {
     margin-left: 139px;
     margin-top: 37px;
 }
+
 
 /* hell */
 .green {
@@ -240,6 +268,11 @@ p {
 
 .collab_right {
     margin-top: 30px;
+}
+
+/* анимация для третьей страницы */
+.minilink:hover {
+    border: 1px solid #1B4E65;
 }
 
 /* картинки */ 
@@ -325,6 +358,10 @@ p {
 
 .work_left {
     margin-right: 213px;
+}
+
+.work_left .minilink:hover {
+    border: 1px solid #1B4E65;
 }
 
 /* лист */ 
@@ -496,6 +533,10 @@ p {
     padding: 19px 50px 21px 50px;
 }
 
+.last_button .last:hover {
+    background-color: #437460;
+}
+
 /* концовка */
 .footer {
     overflow: hidden;
@@ -529,6 +570,10 @@ p {
     position: relative;
     top: -25px;
     float: right;
+}
+
+.last_nav .link:hover {
+    border-bottom: 1px solid #414141;
 }
 
 
